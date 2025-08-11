@@ -56,6 +56,19 @@ Samih, A. (2025). *FHFA Mortgage Rate Prediction — Forward Stepwise (R)*. GitH
 
 ---
 
+---
+
+## Your Actual Plots
+
+<table>
+  <tr>
+    <td><img src="assets/cv_and_scatter.png" alt="CV curve and Predicted vs Actual scatter" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/diagnostics_panels.png" alt="RSS / Adjusted R² / Cp / BIC panels" /></td>
+  </tr>
+</table>
+
 ## Key Plots
 
 <table>
