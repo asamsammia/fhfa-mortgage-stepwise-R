@@ -58,7 +58,7 @@ Samih, A. (2025). *FHFA Mortgage Rate Prediction — Forward Stepwise (R)*. GitH
 
 ---
 
-## Your Actual Plots
+## Key Plots
 
 <table>
   <tr>
@@ -68,29 +68,3 @@ Samih, A. (2025). *FHFA Mortgage Rate Prediction — Forward Stepwise (R)*. GitH
     <td><img src="assets/diagnostics_panels.png" alt="RSS / Adjusted R² / Cp / BIC panels" /></td>
   </tr>
 </table>
-
-## Key Plots
-
-<table>
-  <tr>
-    <td><img src="assets/cv_mean_error.png" alt="CV mean error" /></td>
-    <td><img src="assets/rss.png" alt="RSS" /></td>
-  </tr>
-  <tr>
-    <td><img src="assets/adjr2.png" alt="Adjusted R2" /></td>
-    <td><img src="assets/cp.png" alt="Cp" /></td>
-  </tr>
-  <tr>
-    <td><img src="assets/bic.png" alt="BIC" /></td>
-    <td><img src="assets/pred_vs_actual.png" alt="Predicted vs Actual" /></td>
-  </tr>
-</table>
-
-**Note:** These are placeholders. To publish your real figures:
-```bash
-Rscript scripts/mortgage_stepwise_cv.R --input data/2023-pudb.xlsx --sheet 1
-mv outputs/*.png assets/   # overwrite placeholders
-git add assets/*.png
-git commit -m "docs: add real plots"
-git push
-```
